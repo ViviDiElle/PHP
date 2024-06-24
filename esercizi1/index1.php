@@ -239,6 +239,10 @@ if(($anno % 400 === 0) || ($anno % 4 === 0 && $anno % 100 !== 0)) {
  
 ?> */
 
+//2. Crea una variabile che rappresenta il prezzo originale di un prodotto e
+//un'altra variabile per lo sconto percentuale. Calcola il prezzo scontato e
+//stampa il risultato.
+
 
 
 
