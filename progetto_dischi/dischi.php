@@ -1,4 +1,6 @@
-<?php $dischi = array (
+<?php
+
+$dischi = array (
   0 => 
   array (
     'titolo' => 'Definitely Maybe',

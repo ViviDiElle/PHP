@@ -3,7 +3,7 @@
 include 'dischi.php';
 
 if($_SERVER["REQUEST_METHOD"] == "POST") {
-   //facciamo i controlli
+   //facciamo i controlli, incluso "isset"
     $titolo = $_POST['titolo'];
     $artista = $_POST['artista'];
     $anno = $_POST['anno'];
@@ -18,6 +18,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Salva l'array aggiornato nel file dischi.php - attenzione ad usare i singoli apici!!!
         file_put_contents('dischi.php', '<?php $dischi = '.var_export($dischi, true).';');
+        //header reindirizza alla pg di visualizzazione dei dischi
         header("Location: index.php");         
         exit; //exit, ci assicura che l'esecuzione dello script venga immediatamente terminata. 
 
