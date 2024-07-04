@@ -6,16 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Gestionale Libri</h1>
-    <ul>
-        <li><a href="">Gestione Autori</a></li>
-        <li><a href="">Gestione Editori</a></li>
-        <li><a href="">Gestione Libri</a></li>
-    </ul>
-
-
-
-    <?php include 'partials/menu.html'?>
+<?php include 'partials/menu.html' ?>
+    
 </body>
 </html>
 
